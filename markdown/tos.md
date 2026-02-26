@@ -181,12 +181,12 @@ If not stated here or unsure, please contact and inquire me privately for clarif
 - Medium level gore and horror
 - Detailed ornamental like Halo/picture frames 
 - Artistic Nudity 
+- Erotic/pornographic material (NSFW) (case by case basis)
 </div>
 
 **You may NOT Request :**
 <div class="cross-list">
 
-- Erotic/pornographic material (NSFW)
 - Art style imitations
 - Complicated backgrounds (buildings and complex perspectives) 
 - Topics or subjects I may find personally uncomfortable to work with

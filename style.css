@@ -112,23 +112,18 @@ body {
 
 .section {
     min-height:var(--content-height);
-    scroll-snap-align:start end;
-    scroll-snap-stop:normal;
     position:relative;
+    background-image:url('./asset/bg.png');
+    background-size:300px;
 }
 
 #main {
     overflow-y:scroll;
     overflow-x:hidden;
     scroll-behavior:smooth;
-    scroll-snap-type:y proximity;
     height:var(--content-height);
+}
 
-}
-.section{
-    background-image:url('./asset/bg.png');
-    background-size:300px;
-}
 
 
 /* -------------- header ------------------*/
@@ -258,8 +253,8 @@ body {
     background-color: var(--brown);
     padding: 20px 2em;
     color:var(--offwhite);
-    scroll-snap-align:start;
     position:relative;
+    scroll-snap-align:start;
 }
 
 .footerdoll {
@@ -292,6 +287,7 @@ body {
     padding-left:100px;
     overflow:hidden;
     z-index:1;
+    scroll-snap-align: start;
 
 }
 
@@ -371,6 +367,8 @@ body {
     gap:0 2em;
     position:relative;
     padding-bottom:3rem;
+    scroll-snap-align: start;
+    scroll-snap-type:y proximity;
 }
 
 .portfoliobuttons-box {
@@ -441,10 +439,6 @@ body {
 
 
 /*---------------------------------------------portfolio-----------------------------------------------*/
-
-[data-page='portfolio'] #main {
-    scroll-snap-type:y proximity;
-}
 
 .gallery-container {
     max-width:1400px;
@@ -738,8 +732,6 @@ body {
     padding:120px;
     position:relative;
     text-transform:uppercase;
-    scroll-snap-align:start;
-    scroll-snap-stop:normal;
     z-index:1;
     border-bottom: 3px solid var(--beige);
     margin-bottom:3rem;
@@ -767,7 +759,6 @@ body {
     padding:2em;
     display:flex;
     justify-content:center;
-    scroll-snap-align:start end;
     gap:0 4em;
 }
 
