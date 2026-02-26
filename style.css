@@ -400,13 +400,13 @@ body {
     flex-grow:10;
 }
 .portfoliobuttons.illust {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-illust.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-illust.jpg') ;
 }
 .portfoliobuttons.design {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-design.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-design.jpg') ;
 }
 .portfoliobuttons.chibi {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-chibi.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-chibi.jpg') ;
 }
 
 .stardeco {

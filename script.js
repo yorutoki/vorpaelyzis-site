@@ -41,7 +41,7 @@ function makegallery(folder, dest, grid){
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(dest).append("<div class='gallery-item is-loading'><img src='.." + val + "' width='300px' class=''></div>");
+                    $(dest).append("<div class='gallery-item is-loading'><img src='" + val + "' width='300px' class=''></div>");
                 }
             });
             $(dest).imagesLoaded().progress(function(i, image){
