@@ -50,7 +50,7 @@ hr {
     height:30px;
     margin:1.5em auto;
     border:none;
-    mask-image:url("../asset/divider.png");
+    mask-image:url("/asset/divider.png");
     mask-size:contain;
     mask-repeat:no-repeat;
     mask-position:center;
@@ -74,7 +74,7 @@ h1::before {
     display:inline-block;
     height:1em;
     width:1.5em;
-    mask-image:url('../asset/arrow.png');
+    mask-image:url('/asset/arrow.png');
     mask-size:contain;
     mask-position:center;
     mask-repeat:no-repeat;
@@ -126,7 +126,7 @@ body {
 
 }
 .section{
-    background-image:url('../asset/bg.png');
+    background-image:url('/asset/bg.png');
     background-size:300px;
 }
 
@@ -155,7 +155,7 @@ body {
     left:0;
     width:100%;
     height:100px;
-    background-image:url('../asset/tornpaper.png');
+    background-image:url('/asset/tornpaper.png');
     background-size:contain;
     background-position:bottom;
     background-repeat:repeat-x;
@@ -226,7 +226,7 @@ body {
     }
     .headerlinks::after {
         content:'';
-        mask-image:url('../asset/deco2.png');
+        mask-image:url('/asset/deco2.png');
         mask-size:contain;
         mask-repeat:no-repeat;
         mask-position:center bottom;
@@ -400,13 +400,13 @@ body {
     flex-grow:10;
 }
 .portfoliobuttons.illust {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-illust.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-illust.jpg') ;
 }
 .portfoliobuttons.design {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-design.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-design.jpg') ;
 }
 .portfoliobuttons.chibi {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../img/icon-chibi.jpg') ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/icon-chibi.jpg') ;
 }
 
 .stardeco {
@@ -424,17 +424,17 @@ body {
 }
 
 .star1 {
-    background-image:url("../asset/sparkle1.png");
+    background-image:url("/asset/sparkle1.png");
     width:70px;
     height:120px;
 }
 .star2 {
-    background-image:url("../asset/sparkle2.png");
+    background-image:url("/asset/sparkle2.png");
     width:70px;
     height:100px;
 }
 .star3 {
-    background-image:url("../asset/sparkle3.png");
+    background-image:url("/asset/sparkle3.png");
     width:40px;
     height:80px;
 }
@@ -585,7 +585,7 @@ body {
 @media (min-width:701px) {
     .tabbuttons::after, .tabbuttons::before {
         content:'';
-        mask-image: url('../asset/flourish.png');
+        mask-image: url('/asset/flourish.png');
         mask-size:contain;
         mask-repeat:no-repeat;
         mask-position:center;
@@ -630,7 +630,7 @@ body {
     width:200px;
     height:60px;
     background-color:currentcolor;
-    mask-image:url('../asset/flourish.png');
+    mask-image:url('/asset/flourish.png');
     mask-size:100%;
     mask-repeat:no-repeat;
     margin:0 3rem;
@@ -773,7 +773,7 @@ body {
 
 .bodytext {
     background-color:var(--beige);
-    background-image:url('../asset/bg1.png');
+    background-image:url('/asset/bg1.png');
     background-size:400px;
     color:black;
     padding:3rem;
@@ -927,7 +927,7 @@ body {
     }
     #toc .active::before {
         content:"";
-        background-image:url('../asset/arrow.png');
+        background-image:url('/asset/arrow.png');
         background-size:contain;
         background-repeat:no-repeat;
         background-position:center;
@@ -1248,7 +1248,7 @@ body {
         left:0;
         width:100%;
         height:30px;
-        mask-image:url('../asset/deco2.png');
+        mask-image:url('/asset/deco2.png');
         mask-size:contain;
         mask-position:center bottom;
         mask-repeat:no-repeat;
@@ -1286,7 +1286,7 @@ body {
 
 .fancybutton::after, .fancybutton::before {
     content:'';
-    mask-image:url('../asset/deco1.png');
+    mask-image:url('/asset/deco1.png');
     mask-position:right center;
     mask-size:contain;
     mask-repeat:no-repeat;
