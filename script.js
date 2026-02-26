@@ -69,7 +69,7 @@ function makeheader() {
     $("body").prepend(`    <div id="header">
     <a class="menubutton">menu</a>
     <div class="headerlinks">
-        <a class="headerlink" alt="home" href="../">home</a>
+        <a class="headerlink" alt="home" href="../home">home</a>
         <a class="headerlink" alt="portfolio" href="../portfolio">portfolio</a>
         <a class="headerlink" alt="commission" href="../commission">commission</a>
         <a class="headerlink" alt="terms-of-service" href="../terms-of-service">terms</a>
@@ -185,7 +185,7 @@ function mobiletocbutton() {
 
 function doll() {
     if ($(".doll").length > 0) {
-        const squeak = new Audio("../img/squeak.mp3");
+        const squeak = new Audio("../asset/squeak.mp3");
         squeak.volume = 0.2;
         $('.doll').click(function(){
             squeak.play()
