@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     $('[id^="gallery-"]').each(function(){
         const id = $(this).attr('id').replace(/gallery-/, ''),
-        folder = './img/' + id;
+        folder = '../img/' + id;
         makegallery(folder, this)
     })
 
@@ -41,7 +41,7 @@ function makegallery(folder, dest, grid){
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(dest).append("<div class='gallery-item is-loading'><img src='." + val + "' width='300px' class=''></div>");
+                    $(dest).append("<div class='gallery-item is-loading'><img src='.." + val + "' width='300px' class=''></div>");
                 }
             });
             $(dest).imagesLoaded().progress(function(i, image){
