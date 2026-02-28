@@ -35,13 +35,9 @@ $(document).ready(function(){
     tabber()
 })
 
-
-/*
+/* for local
 function makegallery(folder, dest, grid){
-    $.ajax({
-        url: folder,
-        dataType: "html",
-        success: function (data) {
+    $.get(folder, function(data){
             $(data).find("a").attr("href", function (i, val) {
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
                     $(dest).append("<div class='gallery-item is-loading'><img src='.." + val + "' width='300px' class=''></div>");
@@ -60,16 +56,22 @@ function makegallery(folder, dest, grid){
                 $grid.masonry('layout');
             })
             }
-        }
     });
 }
 */
-
+// for github
 function makegallery(folder, dest, grid){
-    $.get(folder, function(data){
-            $(data).find("a").attr("href", function (i, val) {
+
+    const user = 'yorutoki', 
+    repo = 'vorpaelyzis-site',
+    url = `https://api.github.com/repos/${user}/${repo}/contents` + folder.replace('..', '')
+
+    $.get(url, function(data){
+
+         data.forEach(function(file){
+            const val = file['path']
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(dest).append("<div class='gallery-item is-loading'><img src='.." + val + "' width='300px' class=''></div>");
+                    $(dest).append("<div class='gallery-item is-loading'><img src='../" + val + "' width='300px' class=''></div>");
                 }
             });
             $(dest).imagesLoaded().progress(function(i, image){
