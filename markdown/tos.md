@@ -30,8 +30,7 @@ Upon offering artistic liberty for any aspect of the commissioned art (such as p
 
 ## Copyright & Usage
 
- 1. The client does not have the right to repurpose, redistribute or
-    edit any of the commissioned products.
+ 1. The client does not have the right to repurpose, redistribute or edit any of the commissioned products. (Unless discussed with and permitted by Vorpaelyzis)
  2. The client does not have the right to claim the commission as their own work.
  3. All rights to the image remain with vorpaelyzis, the artist,
     including its distribution and use. Vorpaelyzis retains the right to
@@ -70,6 +69,8 @@ Due to the nature of Kofi, I will be adding a small fee to make up for the fee t
     things of similar nature. Amount of fees depending on the size,
     type, and complexity of the design itself and the order
     (chibi, icon, sketches, flats+lines, or illustration)</div>
+
+4. No refunds are possible after the work is done, approved and received by the client.
 
 ## Delivery Options
 By default, commissions with no deadline or rushed request can take from 2 weeks to 3 months to complete, based on the scale and complexity of the commissioned product. Vorpaelyzis will always be reachable and update the client on the progress of the work, as well as any delays that may incur during the commission. After ordering, Vorpaelyzis will be giving an estimate of time/day when it'd be done by.
