@@ -35,9 +35,12 @@ $(document).ready(function(){
     tabber()
 })
 
+
+/*
 function makegallery(folder, dest, grid){
     $.ajax({
         url: folder,
+        dataType: "html",
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
@@ -58,6 +61,30 @@ function makegallery(folder, dest, grid){
             })
             }
         }
+    });
+}
+*/
+
+function makegallery(folder, dest, grid){
+    $.get(folder, function(data){
+            $(data).find("a").attr("href", function (i, val) {
+                if (val.match(/\.(jpe?g|png|gif)$/)) {
+                    $(dest).append("<div class='gallery-item is-loading'><img src='.." + val + "' width='300px' class=''></div>");
+                }
+            });
+            $(dest).imagesLoaded().progress(function(i, image){
+                $(image.img).parent().removeClass('is-loading');
+            })
+
+            if (grid) {
+            var $grid = $(dest).masonry({
+                itemSelector:'.gallery-item',
+                fitWidth:true
+            })
+            $grid.imagesLoaded().progress(function(i, image){
+                $grid.masonry('layout');
+            })
+            }
     });
 }
 
