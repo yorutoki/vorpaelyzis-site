@@ -1145,12 +1145,14 @@ body {
 }
 
 #main .aboutlinks a:hover {
-    color:var(--beige);
+    opacity:1;
 }
 
 #main .aboutlinks a {
     color:var(--white);
     font-family:noto serif display;
+    opacity:60%;
+    transition:opacity 0.2s;
 }
 
 #main .aboutlinks .contact {
