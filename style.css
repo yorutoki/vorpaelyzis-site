@@ -1098,6 +1098,7 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+    z-index:2;
 }
 
 
@@ -1129,12 +1130,12 @@ body {
 
 }
 
-#main .aboutlinks {
+#main1 .aboutlinks {
     justify-content:left;
     margin:0;
 }
 
-#main .aboutlinks a:hover::after {
+#main1 .aboutlinks a:hover::after {
     bottom:unset;
     top:100%;
     border:unset;
@@ -1144,18 +1145,18 @@ body {
     text-transform:uppercase;
 }
 
-#main .aboutlinks a:hover {
+#main1 .aboutlinks a:hover {
     opacity:1;
 }
 
-#main .aboutlinks a {
+#main1 .aboutlinks a {
     color:var(--white);
     font-family:noto serif display;
     opacity:60%;
     transition:opacity 0.2s;
 }
 
-#main .aboutlinks .contact {
+#main1 .aboutlinks .contact {
     font-size:1rem;
     text-transform:uppercase;
     border-radius:5px;
