@@ -310,7 +310,7 @@ body {
 
 .maintitle-small {
     font-family:"Noto Serif Display";
-    font-size:1em;
+    font-size:1rem;
     color:white;
     text-transform:uppercase;
 }
@@ -1097,7 +1097,9 @@ body {
     font-size:25px;
     display:flex;
     justify-content:center;
+    align-items:center;
 }
+
 
 .aboutlinks a {
     position:relative;
@@ -1125,6 +1127,37 @@ body {
     text-wrap:nowrap;
     font-family:monospace;
 
+}
+
+#main .aboutlinks {
+    justify-content:left;
+    margin:0;
+}
+
+#main .aboutlinks a:hover::after {
+    bottom:unset;
+    top:100%;
+    border:unset;
+    background:unset;
+    color:var(--white);
+    font-family:noto serif display;
+    text-transform:uppercase;
+}
+
+#main .aboutlinks a:hover {
+    color:var(--beige);
+}
+
+#main .aboutlinks a {
+    color:var(--white);
+    font-family:noto serif display;
+}
+
+#main .aboutlinks .contact {
+    font-size:1rem;
+    text-transform:uppercase;
+    border-radius:5px;
+    margin:0 5px;
 }
 
 .outlinebutton {
